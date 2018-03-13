@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvLoanType"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/title_black_color"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:text="房产抵押"
+        />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0.125dp"
+      android:background="@color/line_color"
+      />
+</LinearLayout>

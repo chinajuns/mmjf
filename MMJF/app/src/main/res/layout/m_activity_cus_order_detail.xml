@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg_color">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_bg_color"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+      <Button
+          android:id="@+id/btnFail"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="@string/fail"
+          android:background="@color/bg_3_e6_color"
+          android:textColor="@color/title_black_color"
+          android:textSize="16sp"
+          />
+      <Button
+          android:id="@+id/btnNext"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="@string/next_step"
+          android:background="@color/bg_white_color"
+          android:textColor="@color/title_black_color"
+          android:textSize="16sp"
+          />
+      <Button
+          android:id="@+id/btnThrowOrder"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="@string/throw_order"
+          android:background="@color/theme_color"
+          android:textColor="@color/title_black_color"
+          android:textSize="16sp"
+          />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg_white_color"
+    >
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:minHeight="?attr/actionBarSize"
+      android:background="@color/colorPrimary"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_enabled_color"
+        android:textSize="@dimen/title_size"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:text="@string/loan"
+        />
+  </android.support.v7.widget.Toolbar>
+    <com.yyydjk.library.DropDownMenu
+        android:id="@+id/dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ddmenuUnselectedIcon="@drawable/ic_down_arrow"
+        app:ddmenuSelectedIcon="@drawable/ic_up_arrow"
+        app:ddmenuBackgroundColor="@color/bg_white_color"
+        app:ddmenuTextSize="13sp"
+        app:ddtextSelectedColor="@color/theme_color"
+        app:ddtextUnselectedColor="@color/text_3_4d_color"
+        app:ddunderlineColor="@color/text_3e6_color"
+        >
+
+    </com.yyydjk.library.DropDownMenu>
+</LinearLayout>

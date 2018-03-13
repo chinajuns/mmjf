@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvLabel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:paddingLeft="11dp"
+    android:paddingRight="11dp"
+    android:background="#f5f5f5"
+    android:text="放款快(50)"
+    android:gravity="center"
+    android:textSize="11sp"
+    android:textColor="#4d4d4d"
+    >
+
+</TextView>

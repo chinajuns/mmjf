@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@color/theme_color</color>
+  <color name="colorPrimaryDark">@color/theme_color</color>
+  <color name="colorAccent">@color/theme_color</color>
+
+  <!--common-->
+  <color name="bg_white_color">#ffffff</color>
+
+  <!--loading-->
+  <color name="kprogresshud_default_color">#b1000000</color>
+  <color name="kprogresshud_grey_color">#449E9E9E</color>
+
+  <!--login shadow-->
+  <color name="login_shadow_color">#fcd8a7</color>
+  <color name="btn_enabled_color">#1a1a1a</color>
+  <color name="btn_pressed_color">#615f5f</color>
+  <color name="btn_yellow_pressed_color">#FFF9DA50</color>
+  <color name="btn_disabled_color">#e0e0e0</color>
+  <color name="theme_color">#ffd105</color>
+  <color name="hint_color">#cccccc</color>
+  <color name="line_color">#e0e0e0</color>
+  <color name="error_color">#ff0000</color>
+  <color name="code_text_color">#33abff</color>
+  <color name="title_black_color">#1a1a1a</color>
+  <color name="popup_mask">#88000000</color>
+  <color name="grey_bg_color">#f6f6f6</color>
+  <color name="text_3_4d_color">#4d4d4d</color>
+  <color name="text_3_b3_color">#b3b3b3</color>
+  <color name="bg_3_e9_color">#e9e9e9</color>
+  <color name="bg_3_e6_color">#e6e6e6</color>
+  <color name="bg_f33_color">#ff3333</color>
+  <color name="text_3_cc_color">#cccccc</color>
+  <color name="text_ff3333_color">#ff3333</color>
+  <color name="text_33abff_color">#33abff</color>
+  <color name="windowBackground">#f2f2f2</color>
+  <color name="text_3e6_color">#e6e6e6</color>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/grey_bg_color"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme_color"
+        >
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:src="@drawable/btn_black_back"
+            android:layout_gravity="center_vertical"
+            />
+      <android.support.design.widget.TabLayout
+          android:id="@+id/tabLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:tabTextColor="@color/title_black_color"
+          app:tabSelectedTextColor="@color/title_black_color"
+          app:tabIndicatorColor="@color/title_black_color"
+          app:tabIndicatorHeight="1dp"
+          android:layout_gravity="center"
+          app:tabMode="scrollable"
+          >
+
+      </android.support.design.widget.TabLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_white_color"
+        >
+
+    </FrameLayout>
+</LinearLayout>

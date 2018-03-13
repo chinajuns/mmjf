@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_layer"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="积分不足，立即购买"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textColor="@color/title_black_color"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/line_color"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:orientation="horizontal"
+      >
+      <Button
+          android:id="@+id/btnCancel"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="@string/cancel"
+          android:background="@color/bg_white_color"
+          android:textColor="@color/title_black_color"
+          android:textSize="13sp"
+          />
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/pay_current"
+        android:background="@color/theme_color"
+        android:textColor="@color/title_black_color"
+        android:textSize="13sp"
+        />
+  </LinearLayout>
+</LinearLayout>

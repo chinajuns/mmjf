@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white_color"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        >
+      <ImageView
+          android:id="@+id/imgScoreState"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/dot_red_shape"
+          android:layout_centerVertical="true"
+          android:layout_marginRight="5dp"
+          />
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_black_color"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imgScoreState"
+            />
+      <TextView
+          android:id="@+id/tvScoreNumber"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:textSize="11sp"
+          android:textColor="@color/title_black_color"
+          android:layout_alignParentRight="true"
+          />
+    </RelativeLayout>
+  <TextView
+      android:id="@+id/tvTime"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:paddingTop="15dp"
+      android:textSize="12sp"
+      android:layout_marginBottom="30dp"
+      android:layout_marginLeft="10dp"
+      />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/line_color"
+    />
+</LinearLayout>

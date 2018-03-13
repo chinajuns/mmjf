@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/bg_white_color"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp">
+    <ImageView
+        android:id="@+id/imgPic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/suotu1"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/imgPic"
+        android:layout_alignTop="@id/imgPic"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/title_black_color"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tvDateAndNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/imgPic"
+        android:layout_alignBottom="@id/imgPic"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/text_3_b3_color"
+        android:textSize="11sp"
+        />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/line_color"
+      android:layout_alignParentBottom="true"
+      />
+</RelativeLayout>

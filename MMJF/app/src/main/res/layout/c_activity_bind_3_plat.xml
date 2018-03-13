@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg_color">
+    <RelativeLayout
+        android:id="@+id/layoutWx"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_white_color"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:textColor="@color/title_black_color"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            />
+      <TextView
+          android:id="@+id/tvState"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:textColor="@color/title_black_color"
+          android:background="@null"
+          android:drawableRight="@drawable/ic_right_arrow"
+          android:hint="未绑定"
+          android:textColorHint="@color/text_3_b3_color"
+          android:textSize="13sp"
+          android:layout_alignParentRight="true"
+          android:drawablePadding="5dp"
+          android:focusableInTouchMode="false"
+          android:focusable="false"
+          />
+    </RelativeLayout>
+</LinearLayout>

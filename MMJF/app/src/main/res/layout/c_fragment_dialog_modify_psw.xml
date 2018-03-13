@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_layer"
+    >
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_cross"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:src="@drawable/c_ic_apply_success"
+          android:layout_marginTop="4dp"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="密码修改成功，请重新登录"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dp"
+          android:textColor="@color/title_black_color"
+          android:textSize="11sp"
+          />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/btn_yellow_enabled_shape_5dp"
+        android:text="@string/login_again"
+        android:textSize="16sp"
+        android:textColor="@color/title_black_color"
+        />
+</LinearLayout>

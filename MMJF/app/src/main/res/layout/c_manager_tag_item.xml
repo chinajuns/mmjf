@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chxItem"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:text="1-5万"
+    android:textColor="@color/chx_filter_textcolor_selector"
+    android:button="@null"
+    android:background="@drawable/c_chx_filter_bg_selector"
+    android:textSize="11sp"
+    android:gravity="center"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="15dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+
+</CheckBox>
